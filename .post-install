@@ -1,0 +1,17 @@
+#!/bin/bash
+
+sudo pacman -S yarn
+yaourt -S okular boostnote unclutter polybar visual-studio-code-bin google-chrome firefox-developer-edition arcolinux-polybar-git android-sdk-platform-tools gitflow-avh nodejs nvm npm virtualbox virtualbox-guest-modules-arch virtualbox-guest-utils docker docker-compose --noconfirm
+npm i -g npm n http-serve concurrently jest nock mocha
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+git config --global user.email "henryqrm@gmail.com"
+git config --global user.name "Henrique Rodrigues"
+
+echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system
+
+# ssh-keygen -t rsa -b 4096 -C "henryqrm@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+

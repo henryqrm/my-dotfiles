@@ -1,0 +1,40 @@
+createdAt: "2019-01-14T23:00:08.281Z"
+updatedAt: "2019-01-14T23:38:31.449Z"
+type: "MARKDOWN_NOTE"
+folder: "70b427c200f4f0eee069"
+title: "CSS"
+content: '''
+  # CSS
+  
+  ## Use
+  - BEM ou RCSS
+  - abuse dos pseudo elementos e pseudo seletores
+  - CSS Modules 
+  - CSS-in-JS
+  ## seletores
+  - `a[class="active"]` Pega somento os elementos `<a>` com a classe active
+  - `span[class~="icon arrow-right"]` capturando até palavras separadas por espaço
+  - `.btn:last-child:not(:first-child)` último filho, mas nada faz se ele é o 1º
+  ## Dicas
+  - Selecionar todos, menos o último `li:not(:last-child} { border: black solid 1px; }`
+  - `div:empty { display: none }`
+  
+  ## Performance
+  A performance de carregamento, do maior pro menor
+  - #header 
+  - .header 
+  - header 
+  - nav + header 
+  - main > h1 
+  - main header 
+  - `*` 
+  - [type="text"]
+  - .header:before, header: after
+  
+  ## evite
+  - aninhar elementos como `body headder ul li` pois perde performance
+  - evitar fazer aninhamentos grandes
+'''
+tags: []
+isStarred: false
+isTrashed: false

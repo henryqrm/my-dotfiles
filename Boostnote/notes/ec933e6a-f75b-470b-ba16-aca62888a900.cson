@@ -1,0 +1,23 @@
+createdAt: "2019-01-14T23:00:08.440Z"
+updatedAt: "2019-01-14T23:05:04.523Z"
+type: "MARKDOWN_NOTE"
+folder: "70b427c200f4f0eee069"
+title: "Flow front-end"
+content: '''
+  # Flow front-end
+  
+  - Comece constuindo o HTML, e foque em garatir a semântica do HTML
+  - Faça um reset no css para garatir que todos os browsers renderizem a mesma UI
+  - 
+  
+  
+  ## Dicas
+  
+  - Use classes sempre para estilizar
+  - 
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

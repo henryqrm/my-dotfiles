@@ -1,0 +1,29 @@
+createdAt: "2019-01-13T13:04:32.922Z"
+updatedAt: "2019-01-13T15:11:54.532Z"
+type: "MARKDOWN_NOTE"
+folder: "0429da0b01432a4408e9"
+title: "Stack"
+content: '''
+  # Stack
+  
+  - Docker
+  - Nginx
+  - Ubuntu 18.04 lts
+  - Wordpress
+    - PHP
+    - MySQL
+  - Landing Page
+    - Nodejs
+  
+  
+  - Prometheus -> Metricas hardware
+  - Traefik -> Proxy reverse (replace nginx)
+  - Kubernets -> Manager containers
+  - Docker
+  - Je
+'''
+tags: [
+  "infra"
+]
+isStarred: false
+isTrashed: false

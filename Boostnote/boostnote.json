@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "key": "f7c39a921980b0da517d",
+      "color": "#1278BD",
+      "name": "Default"
+    },
+    {
+      "key": "b43ca0db5f8fd2bfcf06",
+      "color": "#E10051",
+      "name": "Infra"
+    },
+    {
+      "key": "0429da0b01432a4408e9",
+      "color": "#3FD941",
+      "name": "Ajude Um Pet"
+    },
+    {
+      "key": "70b427c200f4f0eee069",
+      "color": "#30D5C8",
+      "name": "Front End"
+    },
+    {
+      "key": "2e43a5666754a727e279",
+      "color": "#E10051",
+      "name": "Unknown 1"
+    }
+  ],
+  "version": "1.0"
+}

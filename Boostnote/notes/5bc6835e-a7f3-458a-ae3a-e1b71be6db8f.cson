@@ -1,0 +1,48 @@
+createdAt: "2019-01-14T22:50:17.796Z"
+updatedAt: "2019-01-14T23:15:55.194Z"
+type: "MARKDOWN_NOTE"
+folder: "70b427c200f4f0eee069"
+title: "HTML Sematic"
+content: '''
+  # HTML Sematic
+  
+  HTML semântico se trata de hierarquizar e organizar as informações/conteúdo do seu site, assim como um livro.
+  
+  ## prós
+  - Melhora os resultados de SEO
+  - Deixa o código semânticamente correto
+  - código acessível
+  
+  ## contras
+  - aumenta a complexidade do desenvolvimento
+  - 
+  
+  
+  ## Elementos sem carga semântica
+  `<b>` deixa o texto em negrito
+  `<span>`
+  `<div>`
+  
+  ## Elementos com carga semântica
+  `<strong>` um texto importante
+  `<i>` expressões em outros idiomas
+  `<em>` ênfase no texto
+  `<h1>` à `<h6>` são usados em títulos de cabeçalhos, não use outras tags
+  
+  ## use
+  - Usar libs de componentes como `react`, `vue` ou `angular`, não exime de escrever semântico, continue escrevendo código acessível
+  - Use o attr `lang` para informar o idioma padrão do texto
+  
+  ## not use
+  
+  `<i>` não represente ícones, use `<span>`
+  
+  
+  ## Curiosidade
+  
+  `<a>` pode encapsular outros elementos, exceto outros `<a>`
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

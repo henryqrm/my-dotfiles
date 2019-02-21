@@ -1,0 +1,51 @@
+createdAt: "2019-02-20T18:11:50.996Z"
+updatedAt: "2019-02-21T12:53:29.846Z"
+type: "MARKDOWN_NOTE"
+folder: "b43ca0db5f8fd2bfcf06"
+title: "Docker - comandos"
+tags: []
+content: '''
+  # Docker - comandos
+  
+  `docker run <IMAGE_CONTAINER>` executa uma imagem local ou docker store
+  `docker run --name <NAME_CUSTOM_CONTAINER> <IMAGE_CONTAINER>` executa uma imagem com um nome alias
+  `docker run -it <IMAGE_CONTAINER>` executa uma imagem interativa pelo bash
+  `docker run -d <IMAGE_CONTAINER>` executa uma imagem em background, ou seja, como processo
+  `docker run -d -p <PORT_LOCAL>:<PORT_CONTAINER> <IMAGE_CONTAINER>` executa uma imagem em background mapeando a porta de rede
+  `docker run -d -e <KEY>=<VALUE> <IMAGE_CONTAINER>` executa uma imagem em background com variável de ambiente
+  
+  
+  `docker ps` lista todos os conteiners ativos
+  `docker ps -a` lista todos os containers ativos e inativos
+  
+  `docker start <ID_CONTENER>` inicia um container
+  `docker start -a -i <ID_CONTENER>` inicia um container pelo bash
+  
+  `docker stop <ID_CONTENER>` para um container
+  
+  `docker rm <ID_CONTENER>` remove um container
+  
+  `docker container prune` remove todos os container inativos
+  
+  `docker stop -t 0 $(docker ps -q)` para todos os containers
+  
+  #### Imagens
+  
+  `docker images` mostra todas as imagens locais, ou seja, criadas pelo Dockerfile ou baixadas pelo docker store
+  `docker rmi <NAME_IMAGE>` remove a imagem
+  
+  `docker login`
+  `docker push <NAME_IMAGEM>`
+  `docker pull <NAME_IMAGEM>`
+  
+  `docker inspect <ID_CONTAINER>`
+  
+  
+  #### Network
+  docker network create --driver bridge <NAME_NETWORK>
+  docker network ls
+  docker run --name <NAME_CONTAINER> --network <NAME_NETWORK> <NAME_IMAGEM>
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

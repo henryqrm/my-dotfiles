@@ -1,0 +1,77 @@
+createdAt: "2018-12-30T19:53:56.240Z"
+updatedAt: "2019-02-20T18:11:44.018Z"
+type: "MARKDOWN_NOTE"
+folder: "b43ca0db5f8fd2bfcf06"
+title: "História"
+content: '''
+  # História
+  
+  
+  
+  ## Contexto
+  
+  Este é sobre aplicações Web, e servidores voltados a este.
+  
+  
+  ### Servidor Local
+  - Custo de manutenção
+  - contras
+    - não consome todos os recursos do computador
+  - pros
+    - 
+  
+  ### Servidor Virtualizado
+  - Ainda é bastante utilizado, e para muitas empresas é interessante manter uma equipe para a manutenção local
+  - hypervisor
+  - menor custo de infra
+  - contras
+    - Para cada maquina virtual, é preciso instalar um sistema operacional, ou seja, consumo de ram, disco e processamento.
+    - configurar todos os sistemas operacionais, atualizar todos os SO. Segurança
+    - Custo para manter todos os SO
+  - pros
+    - melhora o consumo da infra, comparado ao servidor local
+  
+  ### Computação nas nuvens
+  
+  
+  
+  ### Containers (Docker)
+  
+  Devido ao grande consumo de memoria e processamento para manter um S.O completo, elevando o custo em computação nas nuvens, o conceito de container é aplicado para executar em um ambiente fechado o sistema com o menor custo computacional para rodar uma aplicação.
+  
+  ##### Porque devo usar container, em vez de usar já os programas, serviços e etc, sob o S.O e ele genrenciar
+  - Dois softwares usando o mesmo recurso de rede, ex: A mesma porta 80
+  - Caso um software comece a utilizar muito recurso como CPU ou memória? Com container é mais fácil versionar, isolar o softare e limitar os seus acessos
+  - Exita override de configuração. Manter vários softwares em diferentes versões, como por exemplo: python 2 e 3, Java 6 e 10 
+  - Isolando em container evita o travamento geral da aplicação, tornando mais fácil a manuteção. Ex: Se você tem um DB apenas na maquina, se algum app fazer uma query muita pesada, deixara todo o sistema congelado.
+  - 
+  - Melhorar o controle sobre o uso de cada recurso (CPU, disco, rede)
+  - Agilidade na hora de manutenção (criar ou remover)
+  - Facilidade em trabalhar com várias verões de softwares
+  - Mais leve que as VM
+  
+  Os containers não precisa de um software de vistualização, ele conecta diretamente com o kernel do SO e todos os recursos da maquina, assim então, dividindo os recursos concorrente com os demais processos, ou seja, on-demand.
+  
+  - pros
+    - Não tem os custos de manter múltiplos OS
+    - menos manutenção, menor custo para manter. Apenas uma maquina, apenas 1 OS.
+    - mais rápido de subir
+    - Mais leve
+  - contras
+  
+  O que ele resolve?
+  - Aproveita os recursos da maquina, não deixando de usar 
+  Reduzir carga ociosa de computador.
+  
+  
+  
+  
+  
+  # Proximo passo
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []
