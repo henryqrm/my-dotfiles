@@ -71,6 +71,7 @@
 # Git
 !.gitignore
 !.gitconfig
+!.gitmodules
 
 # Oh my zsh
 !.zshrc

@@ -1,0 +1,11 @@
+[submodule "blog.ajudeumpet.com.br"]
+	path = Desktop/blog.ajudeumpet.com.br
+	url = https://github.com/ajudeumpet/blog.ajudeumpet.com.br.git
+
+[submodule "henryqrm.github.io"]
+	path = Desktop/henryqrm.github.io
+	url = https://github.com/henryqrm/henryqrm.github.io.git
+
+[submodule ".ssh"]
+	path = .ssh
+	url = git@bitbucket.org:henryqrm/.ssh.git
