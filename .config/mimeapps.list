@@ -86,6 +86,8 @@ application/vnd.insync.link.drive.doc=insync-helper.desktop;
 application/x-virtualbox-vbox-extpack=virtualbox.desktop;
 application/vnd.squashfs=org.gnome.FileRoller.desktop;
 application/vnd.rar=org.gnome.FileRoller.desktop;
+application/x-tar=org.gnome.FileRoller.desktop;
+application/x-raw-disk-image=org.gnome.FileRoller.desktop;gnome-disk-image-writer.desktop;gnome-disk-image-mounter.desktop;
 
 [Default Applications]
 x-scheme-handler/http=google-chrome.desktop
