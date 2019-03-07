@@ -124,7 +124,7 @@ alias packages-size="pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print 
 #
 
 ## core
-alias g-sync="chmod +x ./git-sync.sh && ./git-sync.sh"
+alias g-sync="[ -f ./git-sync.sh ] && chmod +x ./git-sync.sh && ./git-sync.sh || [ -f ./.git-sync.sh ] && chmod +x ./.git-sync.sh && ./.git-sync.sh"
 alias g-status="git status"
 alias g-undo="git reset HEAD~1 --mixed"
 # clone repository
