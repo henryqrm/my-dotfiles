@@ -119,8 +119,31 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -100"
 #Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
-#create a file called .bashrc-personal and put all your personal aliases
-#in there. They will not be overwritten by skel.
+alias packages-size="pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h"
 
+#
 # Git
-alias git-sync="chmod +x ./git-sync.sh && ./git-sync.sh"
+#
+
+## core
+alias g-sync="chmod +x ./git-sync.sh && ./git-sync.sh"
+alias g-status="git status"
+alias g-undo="git reset HEAD~1 --mixed"
+# clone repository
+alias g-c="git clone"
+# add all files
+alias g-a="git add -A ."
+alias g-cm="git commit -m"
+alias g-c-amend="git commit -a --amend"
+alias g-r="git rebase"
+alias g-r-continue="git rebase --continue"
+alias g-r-continue="git rebase --continue"
+alias g-m="git merge"
+
+alias g-master="git checkout master && git pull"
+
+## branch
+
+alias g-b-rename="git branch -m"
+alias g-b-list="git branch -a | grep ."
+alias g-b-change="git checkout -d"
