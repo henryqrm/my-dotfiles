@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -S yarn
-yay -S boostnote unclutter visual-studio-code-oss visual-studio-code-bin google-chrome firefox-developer-edition android-sdk-platform-tools gitflow-avh nodejs nvm npm virtualbox virtualbox-guest-modules-arch virtualbox-guest-modules-arch docker docker-compose --noconfirm
+yay -S boostnote unclutter newaita-icons-git google-chrome firefox-developer-edition android-sdk-platform-tools gitflow-avh nodejs nvm npm virtualbox virtualbox-guest-modules-arch virtualbox-guest-modules-arch docker docker-compose --noconfirm
 sudo npm i -g npm n http-serve concurrently jest nock mocha
 
 git config --global user.email "henryqrm@gmail.com"
