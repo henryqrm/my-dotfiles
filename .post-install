@@ -13,5 +13,6 @@ echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-wat
 
 # ssh-keygen -t rsa -b 4096 -C "henryqrm@gmail.com"
 eval "$(ssh-agent -s)"
+chmod 400 ~/.ssh/id_rsa
 ssh-add ~/.ssh/id_rsa
 
