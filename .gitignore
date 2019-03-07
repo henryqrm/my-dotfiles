@@ -2,6 +2,15 @@
 # post install arch
 !.post-install
 
+# Bash
+!.bashrc
+
+# Git
+!.gitignore
+!.gitconfig
+!.gitmodules
+!git-sync.sh
+
 # configs
 !.config/
 !.config/i3/
@@ -15,14 +24,6 @@
 !.config/polybar/*
 !.config/polybar/scripts
 !.config/polybar/scripts/*
-
-# Git
-!.gitignore
-!.gitconfig
-!.gitmodules
-
-# Bash
-!.bashrc
 
 # boostnote
 !Boostnote/
