@@ -55,9 +55,10 @@ alias userlist="cut -d: -f1 /etc/passwd"
 alias merge="xrdb -merge ~/.Xresources"
 
 # Aliases for software managment
-# pacman or pm
-alias pacman='sudo pacman --color auto'
+# pacman
+alias p='sudo pacman --noconfirm --color auto -S'
 alias update='sudo pacman -Syyu'
+alias y="yay --noconfirm -S"
 
 # yay as aur helper - updates everything
 alias pksyua="yay -Syu --noconfirm"
@@ -79,9 +80,6 @@ alias fc='sudo fc-cache -fv'
 alias skel='cp -rf /etc/skel/* ~'
 #backup contents of /etc/skel to hidden backup folder in home/user
 alias bupskel='cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)'
-
-#copy bashrc-latest over on bashrc - cb= copy bash
-alias cb="cp ~/.bashrc-latest ~/.bashrc && source ~/.bashrc"
 
 #hardware info --short
 alias hw="hwinfo --short"
