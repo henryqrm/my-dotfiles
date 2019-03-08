@@ -9,3 +9,18 @@
 [submodule ".ssh"]
 	path = .ssh
 	url = git@bitbucket.org:henryqrm/.ssh.git
+[submodule "Desktop/my-arch-linux-builder"]
+	path = Desktop/my-arch-linux-builder
+	url = git@github.com:henryqrm/my-arch-linux-builder.git
+[submodule "Desktop/aup-deploy"]
+	path = Desktop/aup-deploy
+	url = git@bitbucket.org:henryqrm/aup-deploy.git
+[submodule "Desktop/henryqrm.github.io"]
+	path = Desktop/henryqrm.github.io
+	url = git@github.com:henryqrm/henryqrm.github.io.git
+[submodule "Desktop/blog.ajudeumpet.com.br"]
+	path = Desktop/blog.ajudeumpet.com.br
+	url = git@github.com:ajudeumpet/blog.ajudeumpet.com.br.git
+[submodule "Desktop/studies"]
+	path = Desktop/studies
+	url = git@github.com:henryqrm/studies.git

@@ -145,3 +145,7 @@ alias g-master="git checkout master && git pull"
 alias g-b-rename="git branch -m"
 alias g-b-list="git branch -a | grep ."
 alias g-b-change="git checkout -d"
+
+
+## submodules
+alias gsa="git submodule add"

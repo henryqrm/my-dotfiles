@@ -1,4 +1,12 @@
 *
+# Alows submodule
+!Desktop/
+!Desktop/*
+
+!.ssh/
+!.ssh/*
+
+
 # post install arch
 !.post-install
 
