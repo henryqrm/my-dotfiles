@@ -149,3 +149,5 @@ alias g-b-change="git checkout -d"
 
 ## submodules
 alias gsa="git submodule add"
+
+alias postinstall="sh -c "$(wget https://raw.githubusercontent.com/henryqrm/my-dotfiles/master/.postinstall.sh -O -)""
