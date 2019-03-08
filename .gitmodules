@@ -4,9 +4,6 @@
 [submodule "henryqrm.github.io"]
 	path = Desktop/henryqrm.github.io
 	url = https://github.com/henryqrm/henryqrm.github.io.git
-[submodule ".ssh"]
-	path = .ssh
-	url = git@bitbucket.org:henryqrm/.ssh.git
 [submodule "Desktop/my-arch-linux-builder"]
 	path = Desktop/my-arch-linux-builder
 	url = git@github.com:henryqrm/my-arch-linux-builder.git
