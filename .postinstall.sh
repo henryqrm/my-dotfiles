@@ -20,11 +20,12 @@ rm -fR /tmp/my-dotfiles/
 
 sudo usermod -s /usr/bin/zsh $USER
 
-y boostnote unclutter newaita-icons-git google-chrome firefox-developer-edition android-sdk-platform-tools gitflow-avh nodejs nvm virtualbox virtualbox-guest-modules-arch virtualbox-guest-modules-arch docker docker-compose
+yay --noconfirm -S boostnote newaita-icons-git android-sdk-platform-tools gitflow-avh nvm
 sudo npm i -g npm n http-serve concurrently jest nock mocha
 
 
 echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system
-mirror
-update
+sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist
+sudo pacman -Syyu --noconfirm
+yay -Syu --noconfirm
 reboot
