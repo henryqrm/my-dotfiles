@@ -21,7 +21,7 @@ rm -fR /tmp/my-dotfiles/
 sudo usermod -s /usr/bin/zsh $USER
 
 yay --noconfirm -S boostnote newaita-icons-git android-sdk-platform-tools gitflow-avh nvm
-sudo npm i -g npm n http-serve concurrently jest nock mocha ts-node
+sudo npm i -g npm n http-serve concurrently jest nock mocha ts-node live-server
 
 
 echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system

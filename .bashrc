@@ -24,8 +24,8 @@ fi
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
-alias l='ls' 					
-alias l.="ls -A | egrep '^\.'"      
+alias l='ls'
+alias l.="ls -A | egrep '^\.'"
 
 #fix obvious typo's
 alias cd..='cd ..'
